@@ -1,23 +1,23 @@
-export const paginate = (currentPage = 1, totalPages = 0, spread = 1) => {
+export const paginate = (currentPage = 1, totalPages = 0, neighbours = 1) => {
 
   // Create pages array
   let pages = Array.from({length: totalPages}, (_, i) => i + 1)
   
   // Calculate spread
-  let spread = (spread * 2) + 1
+  let spread = (neighbours * 2) + 1
 
   // Initialise start and end for trimming array
-  let start = (currentPage - 1) - spread
-  let end = currentPage + spread
+  let start = (currentPage - 1) - neighbours
+  let end = currentPage + neighbours
 
-  // If the current page is less than the spread, reset the start and set the end to spread
-  if (currentPage <= spread) {
+  // If the current page is less than the neighbours, reset the start and set the end to spread
+  if (currentPage <= neighbours) {
     start = 0
     end = spread
   }
 
   // If the current page is greater than the total minus the neigbours, reset the start to the total pages minus the spread
-  if (currentPage >= (totalPages - spread)) {
+  if (currentPage >= (totalPages - neighbours)) {
     start = (totalPages - spread)
   }
 

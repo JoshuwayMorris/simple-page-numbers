@@ -1,8 +1,12 @@
 {
   "name": "simple-page-numbers",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "A simple JavaScript/TypeScript function that generates a spread of page numbers, based on the desired spread and the total number of pages.",
   "main": "dist/index.js",
+  "repository": { 
+    "type": "git", 
+    "url": "https://github.com/JoshuwayMorris/simple-page-numbers.git" 
+  },
   "scripts": {
     "build": "tsc",
     "test": "echo 'error no test specified' && exit 0"

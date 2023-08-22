@@ -1,6 +1,8 @@
 
 # Simple Page Numbers
 
+[GitHub](https://github.com/JoshuwayMorris/simple-page-numbers), [NPM](https://www.npmjs.com/package/simple-page-numbers)
+
 A simple JavaScript/TypeScript function that generates a spread of page numbers, based on the desired spread and the total number of pages.
 
 For example, if you have 53 pages, and your current page is 21, with a spread of 2 pages, the function will output:
