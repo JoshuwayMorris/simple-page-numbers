@@ -9,7 +9,7 @@ For example, if you have 53 pages, and your current page is 21, with a spread of
 {
     "previousPage": 20,
     "nextPage": 21,
-    "pageCount": 53,
+    "totalPages": 53,
     "pages": [
         19,
         20,
@@ -32,7 +32,7 @@ Then use the function in your files.
 
 ```
 import { paginate } from "simple-page-numbers";
-const pagination = paginate(currentPage, pageCount, neighbours)
+const pagination = paginate(currentPage, totalPages, spread)
 ```
 
 ## Returns
