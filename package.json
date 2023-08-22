@@ -1,0 +1,19 @@
+{
+  "name": "simple-page-numbers",
+  "version": "1.1.4",
+  "description": "A simple JavaScript function that generates an array of page numbers based on the total number of pages, current page and the number of neighbours.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo 'error no test specified' && exit 0"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "author": "Joshua Morris",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "typescript": "^5.1.6"
+  }
+}
