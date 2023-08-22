@@ -1,7 +1,7 @@
 {
   "name": "simple-page-numbers",
-  "version": "1.1.4",
-  "description": "A simple JavaScript function that generates an array of page numbers based on the total number of pages, current page and the number of neighbours.",
+  "version": "1.1.5",
+  "description": "A simple JavaScript/TypeScript function that generates a spread of page numbers, based on the desired spread and the total number of pages.",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
