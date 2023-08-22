@@ -1,12 +1,25 @@
 {
   "name": "simple-page-numbers",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "A simple JavaScript/TypeScript function that generates a spread of page numbers, based on the desired spread and the total number of pages.",
   "main": "dist/index.js",
   "repository": { 
     "type": "git", 
     "url": "https://github.com/JoshuwayMorris/simple-page-numbers.git" 
   },
+  "keywords": [
+    "pagination",
+    "pages",
+    "array",
+    "array of page numbers",
+    "page numbers",
+    "spread",
+    "spread of page numbers",
+    "react pagination",
+    "vue pagination",
+    "nextjs pagination",
+    "nuxt pagination"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "echo 'error no test specified' && exit 0"
