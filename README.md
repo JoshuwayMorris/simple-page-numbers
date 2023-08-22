@@ -37,8 +37,5 @@ import { paginate } from "simple-page-numbers";
 const pagination = paginate(currentPage, totalPages, spread)
 ```
 
-## Returns
-```
-const pagination = paginate(2, 9, 2);
-```
-
+## License
+Distributed under the MIT license.
